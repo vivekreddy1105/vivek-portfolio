@@ -1,0 +1,4 @@
+python3 -m http.server 8000
+vivekreddy@Viveks-MacBook-Air vivek-portfolio % ipconfig getifaddr en0
+192.168.0.187
+http://192.168.0.187:8000

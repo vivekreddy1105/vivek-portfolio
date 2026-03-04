@@ -1,0 +1,334 @@
+{
+  "name": "Vivek Reddy Eluka",
+  "initials": "VR",
+  "headline": "M.S. Computer Science @ Arizona State University",
+  "location": "   Tempe, AZ",
+  "email": "veluka@asu.edu",
+  "phone": "+1 (928) 233-2827",
+  "resumeUrl": "./resume.pdf",
+  "roles": [
+  "ML & NLP Models",
+  "RAG & LLM Applications",
+  "End-to-End AI Systems"
+],
+  "summary": "Master’s student in Computer Science specializing in Artificial Intelligence and Machine Learning. Experienced in developing machine learning models, RAG pipelines, LLM-based applications, and computer vision systems, with hands-on expertise in model optimization, deployment, and full-stack integration.",
+  "snapshot": [
+  {
+    "label": "Research Work",
+    "value": "Multi-Attention + Quantization-Aware YOLO for real-time defect detection on edge devices"
+  },
+  {
+    "label": "Core Expertise",
+    "value": "ML, NLP, RAG systems, and Computer Vision"
+  },
+  {
+    "label": "What I Build",
+    "value": "LLM-powered applications and production-ready AI systems"
+  },
+  {
+    "label": "Engineering Strength",
+    "value": "From data preprocessing to deployment with clean, scalable architectures"
+  }
+],
+
+"focus": [
+  "Recommendation systems",
+  "Planning & search in AI",
+  "Web mining & information extraction",
+  "RAG system improvements",
+  "LLM reasoning & evaluation",
+  "Scalable ML architectures"
+],
+
+  "skills": {
+    "Languages": [
+      "Python",
+      "Java",
+      "C",
+      "Kotlin",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "AI & ML": [
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Large Language Models",
+      "Retrieval‑Augmented Generation (RAG)"
+    ],
+    "Frameworks": [
+      "TensorFlow",
+      "Hugging Face",
+      "LangChain",
+      "Flask",
+      "Node.js",
+      "Gradio"
+    ],
+    "Tools": [
+      "FAISS",
+      "OpenCV",
+      "MediaPipe",
+      "MongoDB",
+      "Socket.IO"
+    ],
+    "Strengths": [
+      "Communication",
+      "Teamwork",
+      "Problem Solving"
+    ]
+  },
+  "education": [
+    {
+      "school": "Arizona State University",
+      "degree": "Master of Science in Computer Science",
+      
+      "dates": "Jan 2026 — Present"
+    },
+    {
+      "school": "CVR College of Engineering",
+      "degree": "B.Tech in Artificial Intelligence and Machine Learning (CGPA: 8.16)",
+      "location": "Hyderabad, Telangana, India",
+      "dates": "Nov 2021 — Apr 2025"
+    }
+  ],
+  "research": [
+    {
+      "title": "Multi‑Attention and Quantization‑Aware YOLO Framework for Real‑Time Surface Defect Detection on Edge Devices",
+      "when": "Aug 2025",
+      "status": "Research Paper (Draft — Not Yet Published)",
+      "link": "https://drive.google.com/file/d/1FmPNooPHn4TKLfSQ3vuM62gGzzups8n4/view?usp=drive_link",
+      "highlights": [
+        "Built an enhanced YOLOv11‑based object detection model using attention mechanisms to improve detection of small surface defects.",
+        "Prepared and unified multiple industrial defect datasets by cleaning annotations and applying data augmentation techniques.",
+        "Obtained 91.3% mAP@0.5 with stable validation performance, showing strong generalization across defect categories."
+      ],
+      "tags": [
+        "Computer Vision",
+        "YOLO",
+        "Edge AI",
+        "Quantization",
+        "Research"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AskTheSite: Website QA Chatbot",
+      "when": "May 2025",
+      "subtitle": "Question answering over any public website",
+      "description": "RAG‑based chatbot that answers natural‑language questions using content scraped from a target website.",
+      "highlights": [
+        "Built using LangChain + FAISS with Mistral‑7B via Together.ai.",
+        "Implemented automated web scraping, chunking, and an interactive Gradio UI.",
+        "Deployed on Hugging Face Spaces."
+      ],
+      "tech": [
+        "LangChain",
+        "Together.ai",
+        "FAISS",
+        "Gradio",
+        "RAG",
+        "Mistral‑7B"
+      ],
+      "links": {
+        "Demo": "https://huggingface.co/spaces/vivekreddy1105/URL_Chatbot",
+        "Source": ""
+      },
+      "category": [
+        "NLP",
+        "RAG",
+        "Web"
+      ]
+    },
+    {
+      "title": "WrapIt: Text Summarizer",
+      "when": "Apr 2025",
+      "subtitle": "Abstractive summarization for text, PDFs, and URLs",
+      "description": "Abstractive summarizer built on T5/BART with a configurable Gradio interface.",
+      "highlights": [
+        "Supports text, PDF, and URL inputs.",
+        "Real‑time summaries with adjustable settings.",
+        "Deployed on Hugging Face Spaces."
+      ],
+      "tech": [
+        "Transformers",
+        "Hugging Face",
+        "Gradio",
+        "T5",
+        "BART",
+        "NLP"
+      ],
+      "links": {
+        "Demo": "https://huggingface.co/spaces/vivekreddy1105/TextSummarizer",
+        "Source": ""
+      },
+      "category": [
+        "NLP",
+        "Web"
+      ]
+    },
+    {
+      "title": "AIroma: Smart Café Chatbot",
+      "when": "Feb 2025",
+      "subtitle": "Domain chatbot for ordering + table availability",
+      "description": "Lightweight LLM chatbot to manage food orders, table availability, and FAQs.",
+      "highlights": [
+        "Uses lightweight LLMs locally via Ollama.",
+        "Real‑time menu recommendations and order tracking via Flask + REST APIs."
+      ],
+      "tech": [
+        "Flask",
+        "Ollama",
+        "JavaScript",
+        "REST APIs",
+        "LLMs"
+      ],
+      "links": {
+        "Demo": "",
+        "Source": "https://github.com/vivekreddy1105/Smart-Hotel-Service-Chatbot.git"
+      },
+      "category": [
+        "LLMs",
+        "Web"
+      ]
+    },
+    {
+      "title": "OCR and Document Search Web Application",
+      "when": "Sep–Oct 2024",
+      "subtitle": "Bilingual OCR + keyword search with highlighting",
+      "description": "OCR pipeline with layout‑aware extraction and document search with visual highlighting.",
+      "highlights": [
+        "Implemented bilingual OCR using OpenCV and EasyOCR.",
+        "Enabled keyword search with visual highlighting.",
+        "Deployed on Hugging Face Spaces."
+      ],
+      "tech": [
+        "EasyOCR",
+        "OpenCV",
+        "Gradio",
+        "OCR"
+      ],
+      "links": {
+        "Demo": "https://huggingface.co/spaces/vivekreddy1105/OCR_Image_to_Text_and_Document_Search",
+        "Source": ""
+      },
+      "category": [
+        "Computer Vision",
+        "Web"
+      ]
+    },
+    {
+      "title": "InnSight: Immersive Hotel Booking Website",
+      "when": "Aug 2024",
+      "subtitle": "Gesture‑controlled booking + 360° exploration",
+      "description": "Gesture‑controlled booking workflow with 360° panoramic room exploration and real‑time communication.",
+      "highlights": [
+        "Gesture controls via MediaPipe + OpenCV.",
+        "Authentication, booking workflows, and real‑time communication with MongoDB + Socket.IO."
+      ],
+      "tech": [
+        "Flask",
+        "MediaPipe",
+        "OpenCV",
+        "MongoDB",
+        "Socket.IO",
+        "Web Apps"
+      ],
+      "links": {
+        "Demo": "",
+        "Source": ""
+      },
+      "category": [
+        "Full‑Stack",
+        "Computer Vision"
+      ]
+    },
+    {
+      "title": "EEG Classification Using EEGNet",
+      "when": "Jul 2024",
+      "subtitle": "Motor imagery classification with EEGNet",
+      "description": "EEG preprocessing with MNE and EEGNet‑based deep learning for motor imagery classification.",
+      "highlights": [
+        "Preprocessed EEG signals using MNE.",
+        "Improved performance with regularization, early stopping, and learning rate scheduling."
+      ],
+      "tech": [
+        "EEGNet",
+        "MNE",
+        "TensorFlow",
+        "Python",
+        "Deep Learning"
+      ],
+      "links": {
+        "Demo": "",
+        "Source": "https://github.com/vivekreddy1105/EEG-Classification.git"
+      },
+      "category": [
+        "Deep Learning",
+        "Signal Processing"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "GATE DA (Data Science & AI)",
+      "detail": "AIR 2368 (2025)"
+    },
+    {
+      "title": "GRE General Test",
+      "detail": "170 Quant (92nd), 152 Verbal (48th), 4.0 AWA (59th) — Feb 2023"
+    },
+    {
+      "title": "IELTS Academic",
+      "detail": "Overall 7.0 (CEFR C1) — Jan 2025"
+    },
+    {
+      "title": "AS Rao Science Olympiad",
+      "detail": "Centre‑level topper (2018)"
+    },
+    {
+      "title": "NPTEL Cloud Computing",
+      "detail": "Completed with distinction (85%)"
+    },
+    {
+      "title": "Creators of Metaverse (Meta Spark Studio)",
+      "detail": "Built an effect — Oct 2023"
+    },
+    {
+      "title": "JEE MAINS",
+      "detail": "97 percentile (2021)"
+    },
+    {
+      "title": "EAMCET",
+      "detail": "Rank 3368 (2021)"
+    }
+  ],
+  "positions": [
+    {
+      "title": "Student Member — Computer Society of India (CSI)",
+      "detail": "Organized workshops conducted by CSI."
+    }
+  ],
+  "social": {
+
+  "LinkedIn": "https://linkedin.com/in/vivekreddy1105",
+  "GitHub": "https://github.com/vivekreddy1105",
+  "Hugging Face": "https://huggingface.co/vivekreddy1105"
+}
+,
+  "seo": {
+    "title": "Vivek Reddy Eluka — AI/ML & Full‑Stack Portfolio",
+    "description": "Portfolio of Vivek Reddy Eluka: AI/ML, NLP/RAG, computer vision projects, research, and achievements.",
+    "keywords": [
+      "Vivek Reddy Eluka",
+      "portfolio",
+      "AI",
+      "machine learning",
+      "NLP",
+      "RAG",
+      "computer vision",
+      "ASU"
+    ]
+  }
+}

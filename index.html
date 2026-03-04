@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Vivek Reddy Eluka — Portfolio</title>
+  <meta name="description" content="AI/ML, NLP/RAG, computer vision projects, research, and achievements." />
+  <meta name="keywords" content="Vivek Reddy Eluka, portfolio, AI, machine learning, NLP, RAG, computer vision, ASU" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Vivek Reddy Eluka — AI/ML & Full‑Stack Portfolio" />
+  <meta property="og:description" content="AI/ML, NLP/RAG, computer vision projects, research, and achievements." />
+  <meta property="og:image" content="./og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="bg">
+    <div class="blob blob-a" aria-hidden="true"></div>
+    <div class="blob blob-b" aria-hidden="true"></div>
+    <div class="grid" aria-hidden="true"></div>
+    <div class="blob blob-c" aria-hidden="true"></div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Home">
+        <span class="logo-mark" id="logoMark">VR</span>
+        <span class="logo-text" id="logoText">Vivek</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+          <span class="icon" aria-hidden="true">☾</span>
+        </button>
+        <a class="btn small" href="#contact">Let’s talk</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container reveal">
+      <div class="hero-left">
+        <p class="eyebrow" id="headline">—</p>
+        <h1 class="hero-title" id="name">—</h1>
+
+        <p class="hero-subtitle">
+          I build <span class="role" id="roleRotator">AI products</span><span class="caret" aria-hidden="true">▍</span>
+        </p>
+
+        <p class="hero-summary" id="summary">—</p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" id="resumeBtn" href="./resume.pdf" target="_blank" rel="noreferrer">Download resume</a>
+        </div>
+
+        <div class="hero-meta">
+          <!--<div class="meta-row" id="metaRow"></div>-->
+          <div class="social-row" id="socialLinks"></div>
+        </div>
+
+        <div class="stats" id="stats"></div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card glass">
+          <div class="card-head">
+            <h3>Snapshot</h3>
+            <p class="muted">Quick highlights</p>
+          </div>
+          <ul class="bullets" id="snapshot"></ul>
+        </div>
+
+        <div class="card glass">
+          <div class="card-head">
+            <h3>Focus</h3>
+            <p class="muted">What I’m working on</p>
+          </div>
+          <div class="chips" id="focusChips"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container reveal">
+      <div class="section-head">
+        <h2>About</h2>
+        <p class="muted">A little bit about me, in one scroll.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card card">
+          <h3>Summary</h3>
+          <p id="aboutSummary">—</p>
+        </div>
+
+        <div class="about-card card">
+          <h3>What you’ll find here</h3>
+          <ul class="bullets" id="aboutBullets">
+            <li>Selected projects with demos and write‑ups.</li>
+            <li>Research work and results.</li>
+            <li>Skills, education, and achievements.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container reveal">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="muted">Tools I use to ship models + products.</p>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+
+    <section id="research" class="section container reveal">
+      <div class="section-head">
+        <h2>Research</h2>
+        <p class="muted">One focused thread: edge‑friendly vision.</p>
+      </div>
+
+      <div class="cards-grid" id="researchGrid"></div>
+    </section>
+    <section id="projects" class="section container reveal">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">Filter by tech, or search by keyword.</p>
+      </div>
+
+      <div class="filters card">
+        <div class="search">
+          <label class="sr-only" for="projectSearch">Search projects</label>
+          <input id="projectSearch" type="search" placeholder="Search: RAG, Gradio, YOLO, Flask…" autocomplete="off" />
+        </div>
+
+        <div class="filter-row">
+          <div class="chips" id="tagChips"></div>
+          <div class="filter-actions">
+            <button class="btn small ghost" id="clearFilters" type="button">Clear</button>
+            <button class="btn small" id="toggleMatch" type="button" aria-pressed="false" title="Toggle match mode">
+              Match: Any
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards-grid" id="projectsGrid"></div>
+    </section>
+
+    
+
+    <section id="education" class="section container reveal">
+      <div class="section-head">
+        <h2>Education</h2>
+        <p class="muted">Where I’ve studied.</p>
+      </div>
+
+      <div class="timeline" id="educationTimeline"></div>
+    </section>
+
+    <section id="achievements" class="section container reveal">
+      <div class="section-head">
+        <h2>Achievements</h2>
+        <p class="muted">A few milestones along the way.</p>
+      </div>
+
+      <div class="achievement-grid" id="achievementGrid"></div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Let’s build something useful.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Reach me</h3>
+
+          <div class="contact-row">
+            <span class="contact-label">Email</span>
+            <a id="emailLink" href="mailto:veluka@asu.edu">veluka@asu.edu</a>
+            <button class="icon-btn" id="copyEmail" 
+            
+            aria-label="Copy email" title="Copy email">⧉</button>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-label">Phone</span>
+            <a id="phoneLink" href="tel:+19282332827">+1 (928) 233-2827</a>
+          </div>
+
+          <div class="contact-row">
+            
+            
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="social-row" id="socialLinksBottom"></div>
+        </div>
+
+        <div class="card">
+          <h3>Positions</h3>
+          <div id="positionsList"></div>
+
+          <div class="divider"></div>
+
+          <p class="muted small">
+            
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      
+    </footer>
+
+    <button class="to-top" id="toTop" aria-label="Back to top" title="Back to top">↑</button>
+
+    <noscript>
+      <div class="noscript container">
+        This site uses a small amount of JavaScript to render content and filters. Enable JavaScript for the full experience.
+      </div>
+    </noscript>
+  </main>
+</body>
+</html>
